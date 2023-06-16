@@ -14,12 +14,12 @@ function lampOn () {
 
 function lampOff () {
     if ( !isLampBroken () ) {
-        lamp.src = './media/desligada.jpg';
+        lamp.src = './img/desligada.jpg';
     }
 }
 
 function lampBroken () {
-    lamp.src = './media/quebrada.jpg';
+    lamp.src = './img/quebrada.jpg';
 }
 
 turnOn.addEventListener ( 'click', lampOn );
