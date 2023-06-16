@@ -8,7 +8,7 @@ function isLampBroken () {
 
 function lampOn () {
     if ( !isLampBroken () ) {
-        lamp.src = './media/ligada.jpg';
+        lamp.src = './img/ligada.jpg';
     }
 }
 
